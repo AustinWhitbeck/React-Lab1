@@ -32,13 +32,22 @@ main.AdDesigner .dark-text {
 main.AdDesigner .currentAdChoice {
     font-family: 'Caveat';
     text-align: center;
-    font-size: 40px;
     margin: 2px;
 }
 
 main.AdDesigner .adButtons {
     border-style: none;
     background-color: #0e3c7e ;
+    color: rgb(227, 233, 241);
+    padding: 8px;
+    border-radius: 6px;
+    margin: 0 3px;
+    height: 30px;
+}
+
+main.AdDesigner .notSelected {
+    border-style: none;
+    background-color: gray ;
     color: rgb(227, 233, 241);
     padding: 8px;
     border-radius: 6px;

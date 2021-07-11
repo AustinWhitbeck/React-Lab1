@@ -1,5 +1,9 @@
 main.vote-main {}
 
+main.vote-main .hidden {
+    display: none;
+}
+
 main.vote-main .vote-ratio-container{
     display: flex;
     flex-direction: row;
