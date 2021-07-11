@@ -1,0 +1,32 @@
+main.vote-main {}
+
+main.vote-main .vote-ratio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main.vote-main .vote-title {
+    font-family: 'Caveat';
+    text-align: center;
+    font-size: 40px;
+}
+
+main.vote-main .vote-percent-bar {
+    background-color: brown;
+    width: 100%;
+    height: 20px;
+    border-radius: 4px;
+}
+
+main.vote-main .chocolate-color {
+    background-color: brown;
+}
+
+main.vote-main .strawberry-color {
+    background-color: pink;
+}
+
+main.vote-main .vanilla-color {
+    background-color: rgb(215, 221, 224);
+}

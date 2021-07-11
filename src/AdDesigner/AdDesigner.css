@@ -1,0 +1,60 @@
+main.AdDesigner {}
+
+main.AdDesigner .ad-container {
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 6px 5px rgba(69,78,84,0.65); 
+    box-shadow: 0px 0px 6px 5px rgba(69,78,84,0.65);
+}
+
+
+main.AdDesigner .adDesigner-title {
+    font-family: 'Caveat';
+    text-align: center;
+    font-size: 40px;
+}
+
+main.AdDesigner .ad-para {
+    text-align: center;
+    margin: 5px;
+}
+
+main.AdDesigner .dark-background {
+    background-color: #222;
+    border-color: white;
+}
+
+main.AdDesigner .dark-text {
+    color: white;
+}
+
+main.AdDesigner .currentAdChoice {
+    font-family: 'Caveat';
+    text-align: center;
+    font-size: 40px;
+    margin: 2px;
+}
+
+main.AdDesigner .adButtons {
+    border-style: none;
+    background-color: #0e3c7e ;
+    color: rgb(227, 233, 241);
+    padding: 8px;
+    border-radius: 6px;
+    margin: 0 3px;
+    height: 30px;
+}
+
+main.AdDesigner .upDown-container {
+    display: flex;
+}
+
+main.AdDesigner .adDesigner-headings {
+    font-weight: bold;
+}
+
+main.AdDesigner .font-size-counter {
+    margin: 0 5px;
+    height: 30px;
+}
