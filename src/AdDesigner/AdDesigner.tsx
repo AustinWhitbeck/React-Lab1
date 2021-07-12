@@ -5,10 +5,10 @@ function AdDesigner(){
 
     const [flavor, setFlavor] = useState(0);
 
-    let chosenFlavor = "";
-    let chocButton = "adButtons";
-    let strawButton = "notSelected";
-    let vanilButton = "notSelected";
+    let chosenFlavor: string = "";
+    let chocButton: string = "adButtons";
+    let strawButton: string = "notSelected";
+    let vanilButton: string = "notSelected";
 
     if (flavor === 0) {
         chosenFlavor = "Chocolate";
@@ -29,10 +29,10 @@ function AdDesigner(){
     
     const [mode, setMode] = useState(true);
 
-    let darkBackground = "";
-    let darkText = "";
-    let lightButton = "adButtons";
-    let darkButton = "notSelected";
+    let darkBackground: string = "";
+    let darkText: string = "";
+    let lightButton: string = "adButtons";
+    let darkButton:string = "notSelected";
     
     if (mode === true){
         darkBackground = "";
