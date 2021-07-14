@@ -14,6 +14,7 @@ function App() {
           <Ad flavor="Strawberry" fontSize={20} darkTheme={false}/>
           <Ad flavor="Chocolate" fontSize={60} darkTheme={true}/>
           <Ad flavor="Blueberry" fontSize={30} darkTheme={false}/>
+          <Ad flavor="Raspberry" fontSize={30} darkTheme={true}/>
         </section>
         <section className="SubSectionsMain">
           <AdDesigner/>
